@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HARY NURRAHMAN</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="APIsaveData.php" method="POST" enctype="multipart/form-data">
+					<h3>INPUT DATA MAHASISWA</h3>
+					<p>Masukkan Data Anda di Kolom Bawah Ini</p>
+					<label class="form-group">
+						<input type="NIM" name="NIM" class="form-control"  required>
+			
+						<span>NIM</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="nama" name="nama" class="form-control" required>
+						<span for="">Nama</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="email" name="email" class="form-control" required >
+						<span for="">Email</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="kelas" name="kelas" class="form-control" required >
+						<span for="">Kelas</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="alamat" name="alamat" class="form-control" required >
+						<span for="">Alamat</span>
+						<span class="border"></span>
+					</label>
+					
+						<input type="submit" name="submit" id="submit button2" value="SIMPAN">
+						
+					    <center>
+                        <a href="data.php" class="button1 button2" style="vertical-align:middle">LIHAT DATA</a>
+                         </center>
+                         
+                         <center>
+                        <a href="data2.php" class="button1 button2" style="vertical-align:middle">EDIT DATA</a>
+                         </center>
+						
+					
+				</form>
+			</div>
+		</div>
+		
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
